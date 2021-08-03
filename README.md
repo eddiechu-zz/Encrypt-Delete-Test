@@ -1,5 +1,5 @@
 # Really protect from ransomware encryption?
-We see many anti-virus / next generation endpoints claim ransomware protection, they are high ranking, expensive, feature rich, detail EDR and granular control but cannot detect ransomware encryption operation, whole office PC being locked.
+We see many anti-virus / next generation endpoints claim ransomware protection, they are high ranking, expensive, feature rich, detail EDR and granular control but cannot detect ransomware encryption operation, whole office computers and servers being locked.
 
 Those vendors explain you should turn on all block mode, make sure all computer have the endpoint software, keep computer patch up to date, then most of invasion can be stopped.
 
@@ -13,4 +13,4 @@ I hope to find it.
 
 It is safe enough to run it on your working PC and server, let you see the fact in your environment.
 
-Luckly, I found few brands can do.
+Luckly, I found few brands can do, and one can stop ransomware encryption initiated from remote PC via file share and RDP.
