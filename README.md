@@ -17,4 +17,4 @@ Luckly, I found few brands can do, and one can stop ransomware encryption initia
 
 # Caution
 
-This tool encrypt most of office files under running folder and subfolder, you may create a temp folder like C:\Encrypt-Delete-Test\, save the tool to there, then run.
+This tool encrypts most of office files under running folder and subfolder, you may create a temp folder like C:\Encrypt-Delete-Test\, save this tool to there, then run it.
