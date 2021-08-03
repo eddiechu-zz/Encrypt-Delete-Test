@@ -1,1 +1,1 @@
-# Really can protect from ransomware encryption?
+# Really protect from ransomware encryption?
