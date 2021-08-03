@@ -1,7 +1,7 @@
 # Really protect from ransomware encryption?
 We see many anti-virus / next generation endpoints claim ransomware protection, they are high ranking, expensive, feature rich, detail EDR and granular control but cannot detect ransomware encryption operation, whole office computers and servers being locked.
 
-(https://i1.wp.com/sandiegofreepress.org/wp-content/uploads/2015/12/gold-toilet-paper.jpg?fit=240%2C210&ssl=1)
+!(https://i1.wp.com/sandiegofreepress.org/wp-content/uploads/2015/12/gold-toilet-paper.jpg?fit=240%2C210&ssl=1)
 
 Those vendors explain you should turn on all block mode, make sure all computer have the endpoint software, keep computer patch up to date, then most of invasion can be stopped.
 
