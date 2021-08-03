@@ -5,7 +5,7 @@ We see many anti-virus / next generation endpoints claim ransomware protection, 
 
  BUT CANNOT detect ransomware encryption operation, whole office computers and servers being locked.
 
-Those vendors explain you should turn on all block mode, make sure all computer have the endpoint software, keep computer patch up to date, then most of invasion can be stopped.
+Those vendors explain you should turn on all block mode, make sure all computer have the endpoint software, keep computer patch up to date, review log regulaerly, follow up abnormal event, then most of invasion can be stopped.
 
 How many company in the world can 100% archive this.
 
