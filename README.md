@@ -7,7 +7,7 @@ We see many anti-virus / next generation endpoints claim ransomware protection, 
 
 Those vendors explain you should turn on all block mode, make sure all computer have the endpoint software, keep computer patch up to date, then most of invasion can be stopped.
 
-How many company in the world can archive 100% of this.
+How many company in the world can 100% archive this.
 
 # Which brand can really protect?
 
