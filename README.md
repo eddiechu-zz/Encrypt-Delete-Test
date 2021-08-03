@@ -5,9 +5,6 @@ Those vendors explain you should turn on all block mode, make sure all computer 
 
 But how many IT operator can archive 100%.
 
-
-
-
 # Which brand can really detect and stop ransomware encryption?
 
 That's why I develop this tool, not to replicate found malware, no signature, just do encrypt and delete.
