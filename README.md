@@ -7,10 +7,14 @@ But how many IT operator can archive 100%.
 
 # Which brand can really detect and stop ransomware encryption?
 
-That's why I develop this tool, not to replicate found malware, no signature, just do encrypt and delete.
+That's why I develop this tool, not to replicate found malware, no footprint in signature, just do encrypt and delete.
 
 I hope to find it.
 
 It is safe enough to run it on your working PC and server, let you see the fact in your environment.
 
 Luckly, I found few brands can do, and one can stop ransomware encryption initiated from remote PC via file share and RDP.  Amazing!
+
+# Caution
+
+This tool encrypt most of office files under running folder and subfolder, you may create a temp folder like C:\Encrypt-Delete-Test\, save the tool to there, then run.
