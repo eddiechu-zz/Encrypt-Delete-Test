@@ -9,7 +9,7 @@ Those vendors explain you should turn on all block mode, make sure all computer 
 
 How many company in the world can archive 100% of this.
 
-# Which brand can really detect and stop ransomware encryption?
+# Which brand can really protect?
 
 That's why I develop this tool, not to replicate found malware, no footprint in signature, just do encrypt and delete.
 
