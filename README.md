@@ -7,13 +7,11 @@ We see many anti-virus / next generation endpoints claim ransomware protection, 
 
 Those vendors explain you should turn on all block mode, make sure all computer have the endpoint software, keep computer patch up to date, review log regulaerly, follow up abnormal event, then most of invasion can be stopped.
 
-How many company in the world can 100% archive this.
+How many company in the world can archive this.
 
 # Which brand can really protect?
 
-That's why I develop this tool, not to replicate found malware, no footprint in signature, just do encrypt and delete.
-
-I hope to find it.
+That's why I develop this tool.  It is not to replicate found malware, has no footprint in signature, just do encrypt and delete, simulate the core operation of ransomware.
 
 It is safe enough to run it on your working PC and server, let you see the fact in your environment.
 
