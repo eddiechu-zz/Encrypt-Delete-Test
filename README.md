@@ -5,6 +5,10 @@ Those vendors explain you should turn on all block mode, make sure all computer 
 
 But how many IT operator can archive 100%
 
-Luckly, there is few endpoint software can really detect and stop ransomware encryption, that's why I develop this tool, not to replicate found malware, no signature, just do encrypt and delete
+
+# Which endpoint software can detect and stop ransomware encryption?
+
+That's why I develop this tool, not to replicate found malware, no signature, just do encrypt and delete
 
 It is safe enough to run it on your working PC and server, let you see the fact in your environment.
+
