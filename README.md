@@ -13,4 +13,4 @@ I hope to find it.
 
 It is safe enough to run it on your working PC and server, let you see the fact in your environment.
 
-Luckly, I found few brands can do, and one can stop ransomware encryption initiated from remote PC via file share and RDP.
+Luckly, I found few brands can do, and one can stop ransomware encryption initiated from remote PC via file share and RDP.  Amazing!
