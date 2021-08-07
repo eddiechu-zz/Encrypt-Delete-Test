@@ -21,7 +21,7 @@ Luckly, I found few brands can do, and one of them can stop ransomware encryptio
 
 This tool encrypts the files under running folder and subfolder, you may create a temperate folder like C:\Encrypt-Delete-Test\, save this tool to there, then run it.  Be safe.
 
-# Usage
+# This tool
 
 EncryptDelTestv3.jar
 - runs on Windows and Mac OS
