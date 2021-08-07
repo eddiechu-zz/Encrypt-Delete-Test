@@ -20,3 +20,13 @@ Luckly, I found few brands can do, and one of them can stop ransomware encryptio
 # Caution
 
 This tool encrypts the files under running folder and subfolder, you may create a temperate folder like C:\Encrypt-Delete-Test\, save this tool to there, then run it.  Be safe.
+
+# Usage
+
+EncryptDelTestv3.jar
+- runs on Windows and Mac OS
+- requires at least Java 7, http://www.java.com
+
+EncryptDelTestv3.exe
+- requires at least .NET Framework 4.0
+- runs on Windows
