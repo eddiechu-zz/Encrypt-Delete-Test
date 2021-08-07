@@ -6,9 +6,9 @@ We see many anti-virus / next generation endpoints claim ransomware protection, 
 
 Even the vendor sell high ranking, expensive, feature rich, detail EDR and granular control
 
-Customer still got Ransomeware, most of PC and servers are locked.
-
 ![alt text](https://i1.wp.com/sandiegofreepress.org/wp-content/uploads/2015/12/gold-toilet-paper.jpg?fit=240%2C210&ssl=1)
+
+Customer still got Ransomeware, most of PC and servers are locked.
 
 They explain you should turn on all block mode, make sure all computer have the endpoint software, keep computer patch up to date, review log regulaerly, follow up abnormal event, then MOST of invasion can be stopped.
 
