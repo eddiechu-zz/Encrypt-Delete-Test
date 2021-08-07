@@ -12,7 +12,7 @@ Customers still got Ransomeware, most of PC and servers were locked.
 
 They explained you should turn on all block mode, make sure all computer have the endpoint software installed, keep computer patch up to date, review log regulaerly, follow up abnormal event, then MOST of invasion can be stopped.
 
-How many company in the world can make sure this?  Why it cannot stop encryption after invasion detection failure?
+How many company in the world can make sure this?  Why it cannot stop encryption after bypass invasion detection?
 
 
 # Which brand can detect encryption process?
