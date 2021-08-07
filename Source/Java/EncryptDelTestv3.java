@@ -79,9 +79,10 @@ public class EncryptDelTestv3 extends JPanel implements ActionListener {
         System.out.println("");
         textarea.append("[Encrypt Delete Test v3 (Java)]\n");
         textarea.append("Simulate ransomware encryption behaviour\n");
+        textarea.append("By Eddie Chu eddiechu.android@gmail.com\n");
         textarea.append("Version v3.0.3 (7/Aug/2021)\n");
         textarea.append("\n");
-        textarea.append("* This tool encrypt the file, with extension of *.doc,*.docx,*.xls,*.xlsx,*.txt,*.rtf,*.pdf,*.jpg,*.jpeg,*.gif,*.bmp,*.png, under current folder and it's subfolder(s)\n");
+        textarea.append("This tool encrypt the file, with extension of *.doc,*.docx,*.xls,*.xlsx,*.txt,*.rtf,*.pdf,*.jpg,*.jpeg,*.gif,*.bmp,*.png, under current folder and it's subfolder(s)\n");
         textarea.append("\n");
         textarea.append("[Caution]\n");
         textarea.append("You use this tool completely at your own risk.\n");
