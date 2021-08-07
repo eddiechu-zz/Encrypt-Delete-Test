@@ -17,7 +17,7 @@ How many company in the world can make sure this?  Why it cannot stop encryption
 
 # Which brand can detect encryption process?
 
-That's why I develop this tool.  It is not to replicate found malware, has no footprint in signature, no bias, just do encrypt and delete, simulate the core operation of ransomware.
+That's why I developed this tool.  It is not to replicate found malware, has no footprint in signature, no bias, just do encrypt and delete, simulate the core operation of ransomware.
 
 It is safe enough to run it on your working PC and server, let you see the fact in your environment.
 
