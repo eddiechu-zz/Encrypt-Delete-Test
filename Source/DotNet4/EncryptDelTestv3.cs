@@ -28,7 +28,7 @@ namespace EncryptDelTestv3
         static void Main(string[] args)
         {
             Console.WriteLine("[Encrypt Delete Test v3]");
-            Console.WriteLine("Simulate ransomware encryption behaviour");
+            Console.WriteLine("Simulate ransomware encryption operation");
             Console.WriteLine("Version v3.0.3 (7/Aug/2021)");
             Console.WriteLine("");
             Console.WriteLine("This tool encrypt the file, with the extension of *.doc,*.docx,*.xls,*.xlsx,*.txt,*.rtf,*.pdf,*.jpg,*.jpeg,*.gif,*.bmp,*.png, under current folder and it's subfolder(s))");
@@ -57,10 +57,6 @@ namespace EncryptDelTestv3
                     Console.WriteLine("Specified Path is " + specifiedpath);
                 }
                 GlobalVar.choose = "1";
-            }
-            if (GlobalVar.choose == "1")
-            {
-                Console.WriteLine("DES.CreateEncryptor");
             }
 
             GlobalVar.sSecretKey = GenerateKey();
