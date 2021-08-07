@@ -4,13 +4,15 @@ Recon -> Weaponization -> Delivery -> Exploitation -> Installation -> Command & 
 
 We see many anti-virus / next generation endpoints claim ransomware protection, just can detect and stop invasion, but do not aware the encryption process.
 
-Even the products claim high ranking, expensive, feature rich, detail EDR and granular control
+Even the vendor claim high ranking, expensive, feature rich, detail EDR and granular control
+
+Customer still got Ransomeware, most of PC and servers are locked.
 
 ![alt text](https://i1.wp.com/sandiegofreepress.org/wp-content/uploads/2015/12/gold-toilet-paper.jpg?fit=240%2C210&ssl=1)
 
 Those vendors explain you should turn on all block mode, make sure all computer have the endpoint software, keep computer patch up to date, review log regulaerly, follow up abnormal event, then MOST of invasion can be stopped.
 
-How many company in the world can make sure this?  What if it cannot detect a very advanced zero day invasion?
+How many company in the world can make sure this?  Why it does not aware encryption after failure to detect invasion?
 
 
 # Which brand can detect encryption process?
