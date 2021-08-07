@@ -21,7 +21,7 @@ That's why I developed this tool.  It is not to replicate found malware, has no 
 
 It is safe enough to run it on your working PC and server, let you see the fact in your environment.
 
-I have helped people to test for several years, luckly, found few brands can detect it, and one of them can stop ransomware encryption initiated from remote PC via file share and RDP as well.  Amazing!
+I have helped people to test for several years, luckly, found few brands can detect it, and one of them can stop ransomware encryption initiated from remote PC via file share and RDP as well.  I did see a real Ransomware incident, that endpoint could stop encryption, no loss.
 
 
 # This tool
