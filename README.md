@@ -11,11 +11,11 @@ How many company in the world can make sure this.
 
 # Which brand can really protect?
 
-That's why I develop this tool.  It is not to replicate found malware, has no footprint in signature, just do encrypt and delete, simulate the core operation of ransomware.
+That's why I develop this tool.  It is not to replicate found malware, has no footprint in signature, no bias, just do encrypt and delete, simulate the core operation of ransomware.
 
 It is safe enough to run it on your working PC and server, let you see the fact in your environment.
 
-We help people to test for several years, luckly, few brands can do, and one of them can stop ransomware encryption initiated from remote PC via file share and RDP as well.  Amazing!
+I have helped people to test for several years, luckly, found few brands can detect it, and one of them can stop ransomware encryption initiated from remote PC via file share and RDP as well.  Amazing!
 
 # Caution
 
