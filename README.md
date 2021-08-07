@@ -28,7 +28,6 @@ I have helped people to test for several years, luckly, found few brands can det
 
 This tool encrypts the files under running folder and subfolder, you may create a temperate folder like C:\Encrypt-Delete-Test\, save this tool to there, then run it.  Be safe.
 
-
 EncryptDelTestv3.jar
 - runs on Windows and Mac OS
 - requires at least Java 7, http://www.java.com
@@ -38,6 +37,7 @@ EncryptDelTestv3.exe
 - runs on Windows
 
 
+#
 
 Windows screen
 
