@@ -8,11 +8,11 @@ Even the vendor sell high ranking, expensive, feature rich, detail EDR and granu
 
 ![alt text](https://i1.wp.com/sandiegofreepress.org/wp-content/uploads/2015/12/gold-toilet-paper.jpg?fit=240%2C210&ssl=1)
 
-Customer still got Ransomeware, most of PC and servers were locked.
+Customers still got Ransomeware, most of PC and servers were locked.
 
-They explain you should turn on all block mode, make sure all computer have the endpoint software, keep computer patch up to date, review log regulaerly, follow up abnormal event, then MOST of invasion can be stopped.
+They explained you should turn on all block mode, make sure all computer have the endpoint software installed, keep computer patch up to date, review log regulaerly, follow up abnormal event, then MOST of invasion can be stopped.
 
-How many company in the world can make sure this?  Why it cannot stop encryption after failure invasion detection?
+How many company in the world can make sure this?  Why it cannot stop encryption after invasion detection failure?
 
 
 # Which brand can detect encryption process?
