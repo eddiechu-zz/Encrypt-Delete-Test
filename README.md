@@ -30,3 +30,10 @@ EncryptDelTestv3.jar
 EncryptDelTestv3.exe
 - requires at least .NET Framework 4.0
 - runs on Windows
+
+Windows screen
+![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen01.png)
+![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen03.png)
+
+Java screen
+![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen04.png)
