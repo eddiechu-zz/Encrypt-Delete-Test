@@ -4,7 +4,7 @@ Recon -> Weaponization -> Delivery -> Exploitation -> Installation -> Command & 
 
 We see many anti-virus / next generation endpoints claim ransomware protection, just can detect and stop invasion, but DO NOT AWARE the encryption process.
 
-Even the vendor sell high ranking, expensive, feature rich, detail EDR and granular control
+Even those vendors sell high ranking, expensive, feature rich, detail EDR and granular control
 
 ![alt text](https://i1.wp.com/sandiegofreepress.org/wp-content/uploads/2015/12/gold-toilet-paper.jpg?fit=240%2C210&ssl=1)
 
@@ -15,13 +15,13 @@ They explained you should turn on all block mode, make sure all computer have th
 How many company in the world can make sure this?  Why it cannot stop encryption after bypass invasion detection?
 
 
-# Which brand can detect encryption process?
+# Which brand can detect encryption operation?
 
 That's why I developed this tool.  It is not to replicate found malware, has no footprint in signature, no bias, just do encrypt and delete, simulate the core operation of ransomware.
 
 It is safe enough to run it on your working PC and server, let you see the fact in your environment.
 
-I have helped people to test for several years, luckly, found few brands can detect it, and one of them can stop ransomware encryption initiated from remote PC via file share and RDP as well.  I did see a real Ransomware incident, that endpoint could stop encryption, no loss.
+I have helped people to test for several years, luckly, found few brands can detect it, and one of them can stop ransomware encryption initiated from remote PC via file share and RDP as well.  I did see a real Ransomware incident, that endpoint really could stop encryption, no loss.
 
 
 # This tool
