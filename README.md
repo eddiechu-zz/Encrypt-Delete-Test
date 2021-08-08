@@ -6,7 +6,7 @@ We see many anti-virus / next generation endpoints claim ransomware protection, 
 
 Even those vendors sell high ranking, expensive, feature rich, detail EDR and granular control,
 
-![alt text](https://i.ytimg.com/vi/6Q5nrnyWqyM/maxresdefault.jpg)
+[![Most Expensive Useless Things](https://i.ytimg.com/vi/6Q5nrnyWqyM/maxresdefault.jpg)](https://www.youtube.com/watch?v=6Q5nrnyWqyM)
 
 customers still got Ransomware, most of PC and servers were locked.
 
