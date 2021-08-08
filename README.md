@@ -2,17 +2,17 @@
 
 Recon -> Weaponization -> Delivery -> Exploitation -> Installation -> Command & Control -> Exfiltration
 
-We see many anti-virus / next generation endpoints claim ransomware protection, just can detect and stop invasion, but DO NOT AWARE the encryption process.
+We see many anti-virus / next generation endpoints claim ransomware protection, which can just detect and stop invasion, but CANNOT AWARE the encryption process.
 
-Even those vendors sell high ranking, expensive, feature rich, detail EDR and granular control
+Even those vendors sell high ranking, expensive, feature rich, detail EDR and granular control,
 
 ![alt text](https://i1.wp.com/sandiegofreepress.org/wp-content/uploads/2015/12/gold-toilet-paper.jpg?fit=240%2C210&ssl=1)
 
-Customers still got Ransomeware, most of PC and servers were locked.
+customers still got Ransomware, most of PC and servers were locked.
 
-They explained you should turn on all block mode, make sure all computer have the endpoint software installed, keep computer patch up to date, review log regulaerly, follow up abnormal event, then MOST of invasion can be stopped.
+Vendors usually advise you to turn on all block mode, make sure all computer have the endpoint software installed, keep computer patch up to date, review log regulaerly, follow up abnormal event, then MOST of invasion can be stopped.
 
-How many company in the world can make sure this?  Why it cannot stop encryption after bypass invasion detection?
+How many companies in the world can make sure this?  Why can't it stop encryption after bypass invasion detection?
 
 
 # Which brand can detect encryption operation?
@@ -21,12 +21,12 @@ That's why I developed this tool.  It is not to replicate found malware, has no 
 
 It is safe enough to run it on your working PC and server, let you see the fact in your environment.
 
-I have helped people to test for several years, luckly, found few brands can detect it, and one of them can stop ransomware encryption initiated from remote PC via file share and RDP as well.  I did see a real Ransomware incident, that endpoint really could stop encryption, no loss.
+I have helped people to test this for several years.  Luckly, I found few brands can detect it, and one of them can stop ransomware encryption initiated from remote PC via file share and RDP as well.  I did see a real Ransomware incident, that endpoint really could stop encryption, no loss.
 
 
 # This tool
 
-This tool encrypts the files under running folder and subfolder, you may create a temperate folder like C:\Encrypt-Delete-Test\, save this tool to there, then run it.  Be safe.
+This tool encrypts the files under running folder and subfolder, you may create a temporary folder like C:\Encrypt-Delete-Test\, save this tool to there, then run it.  Be safe.
 
 EncryptDelTestv3.jar
 - runs on Windows and Mac OS
