@@ -1,4 +1,4 @@
-# Ransomware kill chain
+# Ransomware attack flow
 
 Campaign -> Infection -> Staging -> Scan -> Encrypt -> Payday
 
