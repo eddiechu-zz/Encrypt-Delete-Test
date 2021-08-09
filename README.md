@@ -6,7 +6,7 @@ We see many anti-virus / next generation endpoints claim ransomware protection, 
 
 Even those vendors sell high ranking, expensive, feature rich, detail EDR, heuristic detection, AI, ML and granular control,
 
-[![Most Expensive Useless Things](https://i.ytimg.com/vi/6Q5nrnyWqyM/maxresdefault.jpg)](https://www.youtube.com/watch?v=6Q5nrnyWqyM)
+![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen2.png)
 
 customers still got Ransomware, most of PC and servers were locked.
 
@@ -41,16 +41,14 @@ EncryptDelTestv3.exe
 
 Windows screen
 
-
 ![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen1.gif)
-![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen2.png)
 ![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen3.png)
 ![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen4.png)
-![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen6.gif)
-
 
 
 #
 
 Java screen
+
+![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen6.gif)
 
