@@ -1,6 +1,6 @@
 # Ransomware kill chain
 
-Recon -> Weaponization -> Delivery -> Exploitation -> Installation -> Command & Control -> Exfiltration
+Campaign -> Infection -> Staging -> Scan -> Encrypt -> Payday
 
 We see many anti-virus / next generation endpoints claim ransomware protection, which can just detect and stop invasion, but CANNOT AWARE the encryption process.
 
