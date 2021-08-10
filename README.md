@@ -4,6 +4,8 @@
 
 [Campaign] -> [Infection] -> [Staging] -> [Scan] -> [Encrypt] -> [Payday]
 
+
+
 We see many anti-virus / next generation endpoints claim ransomware protection, which can just detect and stop invasion, but CANNOT AWARE the encryption process.
 
 Even those vendors sell high ranking, expensive, feature rich, detail EDR, heuristic detection, AI, ML and granular control, customers still got Ransomware, most of PC and servers were locked.
@@ -37,7 +39,9 @@ EncryptDelTestv3.exe
 - runs on Windows
 
 
-## Windows screen
+#
+
+###### Windows screen
 
 ![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen8.png)
 
@@ -46,7 +50,9 @@ EncryptDelTestv3.exe
 ![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen2.png)
 
 
-## Java screen
+#
+
+###### Java screen
 
 ![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen6.gif)
 
