@@ -4,10 +4,6 @@
 
 [Campaign] -> [Infection] -> [Staging] -> [Scan] -> [Encrypt] -> [Payday]
 
-
-
-
-
 We see many anti-virus / next generation endpoints claim ransomware protection, which can just detect and stop invasion, but CANNOT AWARE the encryption process.
 
 Even those vendors sell high ranking, expensive, feature rich, detail EDR, heuristic detection, AI, ML and granular control, customers still got Ransomware, most of PC and servers were locked.
