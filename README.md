@@ -1,3 +1,5 @@
+# Really can protect from ransomware encryption?
+
 # Ransomware attack flow
 
 Campaign -> Infection -> Staging -> Scan -> Encrypt -> Payday
