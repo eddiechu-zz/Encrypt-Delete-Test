@@ -1,6 +1,6 @@
 # Really can protect from ransomware encryption?
 
-# Ransomware attack flow
+###### Ransomware attack flow
 
 Campaign -> Infection -> Staging -> Scan -> Encrypt -> Payday
 
@@ -37,9 +37,7 @@ EncryptDelTestv3.exe
 - runs on Windows
 
 
-#
-
-Windows screen
+###### Windows screen
 
 ![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen8.png)
 
@@ -48,9 +46,7 @@ Windows screen
 ![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen2.png)
 
 
-#
-
-Java screen
+###### Java screen
 
 ![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen6.gif)
 
