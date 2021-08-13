@@ -39,13 +39,20 @@ EncryptDelTestv3.exe
 
 #
 
-###### Windows screen
+###### Windows screen (Local drive)
 
 ![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen8.png)
 
 ![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen4.png)
 
 ![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen2.png)
+
+
+#
+
+###### Windows screen (Network drive)
+
+![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen8.gif)
 
 
 #
