@@ -30,16 +30,19 @@ I have helped people to test this for several years.  Luckly, I found few brands
 
 This tool encrypts the files under running folder and subfolder, you may create a temporary folder like C:\Encrypt-Delete-Test\, save this tool to there, then run it.  Be safe.
 
-The principle is not to see if your endpoint can stop it to start, but to see if the endpoint can detect and stop when the encryption is processing.
+The principle is not to see if your endpoint can stop the tool to start, but to see if the endpoint can detect and stop the tool when the encryption is processing.
 
 EncryptDelTestv3.jar
 - runs on Windows and Mac OS
 - requires at least Java 7, http://www.java.com
+(usually java.exe is a trusted software, it is more difficult for endpoint to safegard)
 
 EncryptDelTestv3.exe
 - requires at least .NET Framework 4.0
 - runs on Windows
 
+| CANNOT detect | CAN detect |
+|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen10.gif)|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen13.gif)|
 
 #
 
@@ -50,13 +53,6 @@ EncryptDelTestv3.exe
 ![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen14.png)
 
 ![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen11.png)
-
-
-#
-
-###### Windows screen (Network drive)
-
-![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen8.gif)
 
 
 #
