@@ -42,7 +42,6 @@ import java.awt.Desktop;
 
 public class EncryptDelTestv3 extends JPanel implements ActionListener {
     private static Cipher encrypt;
-    private static Cipher decrypt;
     private static JTextArea textarea = new JTextArea(40, 60);
     private static JButton button = new JButton("Continue");
     private static final byte[] initialization_vector = {99,11,88,00,55,66,33,22};
@@ -55,8 +54,6 @@ public class EncryptDelTestv3 extends JPanel implements ActionListener {
         textarea.setFocusable(false);
         textarea.setWrapStyleWord(false);
         textarea.setLineWrap(false);
-        // DefaultCaret caret = (DefaultCaret)textarea.getCaret();
-        // caret.setUpdatePolicy(DefaultCaret.ALWAYS_UPDATE);
         Font font = new Font("Courier New", Font.BOLD, 12);
         textarea.setFont(font);
         JScrollPane scrollpane = new JScrollPane(textarea);
@@ -96,7 +93,7 @@ public class EncryptDelTestv3 extends JPanel implements ActionListener {
     public static void goProcess() {
         textarea.append("\n");
         System.out.println("");
-        File currentDir = new File("."); // current directory
+        File currentDir = new File("."); 
         displayDirectoryContents(currentDir);
         try {
            BufferedWriter out = new BufferedWriter(new FileWriter("popup.html"));
@@ -175,8 +172,7 @@ public class EncryptDelTestv3 extends JPanel implements ActionListener {
     public static void JavaDESEncryption(String filename) {
 
         String clearFile = filename;
-        String encryptedFile = filename + ".poc";
-        String decryptedFile = filename + ".dec";
+        String encryptedFile = filename + ".encrypted";
 
         try {
 
@@ -223,13 +219,6 @@ public class EncryptDelTestv3 extends JPanel implements ActionListener {
     throws IOException {
 
         output = new CipherOutputStream(output, encrypt);
-        writeBytes(input, output);
-    }
-
-    private static void decrypt(InputStream input, OutputStream output)
-    throws IOException {
-
-        input = new CipherInputStream(input, decrypt);
         writeBytes(input, output);
     }
 
