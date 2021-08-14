@@ -14,7 +14,7 @@ Vendors usually advise you to turn on all block mode, make sure all computer hav
 
 How many companies in the world can make sure this?  Why can't it stop encryption after bypass invasion detection?
 
-> Stopping encryption is the last defense, cannot be neglected.
+**Stopping encryption is the last defense, cannot be neglected.**
 
 
 # Which brand can detect encryption operation?
@@ -54,7 +54,7 @@ EncryptDelTestv3.exe
 | CANNOT detect | CAN detect |
 |---------------|---------------|
 |![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen10.gif)|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen13.gif)|
-| The tool encrypts all file, red page show up and all files are encrypted | The tool being terminated, no red page show up, few files are encrypted, part of them are being restored |
+| The tool encrypted all file, red page shown up and all files are encrypted | The tool is being terminated, no red page shown up, few files are encrypted, part of them are being restored |
 
 
 #
@@ -64,7 +64,7 @@ EncryptDelTestv3.exe
 | CAN detect |
 |---------------|
 |![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen15.gif)|
-|The tool encrypt network drive, server terminated the remote operation, few files are encrypted, part of them are being restored|
+|The tool tried to encrypt network drive, server terminated the encryption from remote, few files are encrypted, part of them are being restored|
 
 
 #
@@ -74,13 +74,16 @@ EncryptDelTestv3.exe
 | CANNOT detect | CAN detect |
 |---------------|---------------|
 |![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen12.gif)|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen14.gif)|
-| The tool encrypts all file, red page show up and all files are encrypted | The tool being terminated, no red page show up, few files are encrypted, part of them are being restored |
+| The tool encrypted all file, red page shown up and all files are encrypted | The tool is being terminated, no red page shown up, few files are encrypted, part of them are being restored |
 
 
 
 
 
 
-#ransomware
-#test
-#tool
+
+
+
+
+ransomware test tool
+ransomware simulation
