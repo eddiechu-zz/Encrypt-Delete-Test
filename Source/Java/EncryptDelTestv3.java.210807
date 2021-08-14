@@ -143,8 +143,6 @@ public class EncryptDelTestv3 extends JPanel implements ActionListener {
           textarea.append("No file is found or encrypted\n");      
           System.out.println("No file is found or encrypted");
         }
-        textarea.append("Please contact Function One Computer Services(www.f1.hk)\n");
-        System.out.println("Please contact Function One Computer Services(www.f1.hk)");
         textarea.setCaretPosition(textarea.getDocument().getLength());
         JFrame f;  
         f=new JFrame();  
