@@ -42,6 +42,7 @@ EncryptDelTestv3.exe
 - runs on Windows
 
 | CANNOT detect | CAN detect |
+|---------------|---------------|
 |![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen10.gif)|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen13.gif)|
 
 #
