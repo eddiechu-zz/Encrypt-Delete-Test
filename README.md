@@ -37,14 +37,14 @@ EncryptDelTestv3.jar
 - requires at least Java 7, http://www.java.com
 (usually java.exe is a trusted software, it is more difficult for endpoint to safegard)
 
-![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen15.png)
-
 
 EncryptDelTestv3.exe
 - requires at least .NET Framework 4.0
 - runs on Windows
 
-![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen13.png)
+| EncryptDelTestv3.jar | EncryptDelTestv3.exe |
+|---------------|---------------|
+|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen15.png)|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen13.png)|
 
 
 # Test cases
