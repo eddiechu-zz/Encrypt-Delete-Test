@@ -30,7 +30,8 @@ namespace EncryptDelTestv3
             Console.WriteLine("[Encrypt Delete Test v3]");
             Console.WriteLine("Simulate ransomware encryption operation");
             Console.WriteLine("By Eddie Chu eddiechu.android@gmail.com");
-            Console.WriteLine("Version v3.0.3 (7/Aug/2021)");
+            Console.WriteLine("Please download the original and latest version from github.com/eddiechu/Encrypt-Delete-Test");
+            Console.WriteLine("Version v3.0.4 (14/Aug/2021)");
             Console.WriteLine("");
             Console.WriteLine("This tool encrypt the file, with the extension of *.doc,*.docx,*.xls,*.xlsx,*.txt,*.rtf,*.pdf,*.jpg,*.jpeg,*.gif,*.bmp,*.png, under current folder and it's subfolder(s))");
             Console.WriteLine("");
@@ -223,4 +224,3 @@ namespace EncryptDelTestv3
 
     }
 }
-
