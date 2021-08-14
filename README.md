@@ -14,8 +14,9 @@ Vendors usually advise you to turn on all block mode, make sure all computer hav
 
 How many companies in the world can make sure this?  Why can't it stop encryption after bypass invasion detection?
 
-**Stop encryption is the last defense, cannot be neglected.**
-
+'''diff
+**-Stop encryption is the last defense, cannot be neglected.**
+'''
 
 # Which brand can detect encryption operation?
 
@@ -30,7 +31,7 @@ I have helped people to test this for several years.  Luckly, I found few brands
 
 This tool encrypts the files under running folder and subfolder, you may create a temporary folder like C:\Encrypt-Delete-Test\, save this tool to there, then run it.  Be safe.
 
-The principle is not to see if your endpoint can stop the tool to start, but to see if the endpoint can detect and stop the tool when the encryption is processing.
+The principle is not to test if your endpoint can stop the tool to start, but to test if the endpoint can detect and stop the tool when the encryption is processing.
 
 EncryptDelTestv3.jar
 - runs on Windows and Mac OS
@@ -75,3 +76,12 @@ EncryptDelTestv3.exe
 |---------------|---------------|
 |![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen12.gif)|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen14.gif)|
 | The tool encrypts all file, red page show up and all files are encrypted | The tool being terminated, no red page show up, few files are encrypted, part of them are being restored |
+
+
+
+
+
+
+#ransomware
+#test
+#tool
