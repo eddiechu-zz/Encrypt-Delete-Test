@@ -49,7 +49,7 @@ EncryptDelTestv3.exe
 
 # Test cases
 
-###### Windows (Local drive)
+###### Windows (local drive)
 
 | CANNOT detect | CAN detect |
 |---------------|---------------|
@@ -59,20 +59,19 @@ EncryptDelTestv3.exe
 
 #
 
-###### Windows screen (Local drive)
+###### Windows (remote attack)
 
-![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen13.png)
-
-![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen14.png)
-
-![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen11.png)
+| CAN detect |
+|---------------|
+|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen13.gif)|
+|The tool encrypt network drive, server terminated the remote operation, few files are encrypted, part of them are being restored|
 
 
 #
 
-###### Java screen
+###### Java (local drive)
 
-![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen15.png)
-
-![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen12.gif)
-
+| CANNOT detect | CAN detect |
+|---------------|---------------|
+|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen12.gif)|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen15.gif)|
+| The tool encrypts all file, red page show up and all files are encrypted | The tool being terminated, no red page show up, few files are encrypted, part of them are being restored |
