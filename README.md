@@ -14,7 +14,7 @@ Vendors usually advise you to turn on all block mode, make sure all computer hav
 
 How many companies in the world can make sure this?  Why can't it stop encryption after bypass invasion detection?
 
-**Stopping encryption is the last defense, cannot be neglected.
+**Stopping encryption is the last defense, cannot be neglected.**
 
 **Again, stopping encryption is the last defense, cannot be neglected.**
 
