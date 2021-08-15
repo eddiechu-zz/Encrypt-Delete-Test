@@ -92,11 +92,12 @@ EncryptDelTestv3.exe
 
 #
 
-eddie chu
 ransomware test tool
 ransomware simulation
 ransomware simulator
 ransomware assessment
+eddie chu
+eddiechu.android@gmail.com
 anti-ransomware
 antivirus test
 anti-virus test
@@ -104,4 +105,6 @@ endpoint test
 infosec
 security
 cyber security
+cybersecurity
 incident response
+hacker
