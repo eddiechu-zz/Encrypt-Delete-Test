@@ -53,7 +53,7 @@ EncryptDelTestv3.exe
 |![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen15.png)|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen13.png)|
 
 
-# Use illustration
+# How it works
 
 ###### EncryptDelTestv3.exe (local drive)
 
