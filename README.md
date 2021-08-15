@@ -14,16 +14,20 @@ Vendors usually advise you to turn on all block mode, make sure all computer hav
 
 How many companies in the world can make sure this?  Why can't it stop encryption after bypass invasion detection?
 
-**Stopping encryption is the last defense, cannot be neglected.**
+**Stopping encryption is the last defense, cannot be neglected.  Again, stopping encryption is the last defense, cannot be neglected.**
 
 
 # Which brand can detect encryption operation?
 
-That's why I developed this tool.  It is not to replicate found malware, not vendor test tool, no bias, just do encrypt and delete, simulate the core operation of ransomware.
+That's why I developed this tool.  It is not to replicate found malware, not vendor test tool, no bias, no need to install, just do encrypt and delete, simulate the core operation of ransomware.
 
 It is safe enough to run it on your working PC and server, let you see the fact in your environment.
 
 I have helped people to test this for several years.  Luckly, I found few brands can detect it, and one of them can stop ransomware encryption initiated from remote PC via file share and RDP as well.  I did see a real Ransomware incident, that endpoint really could stop encryption, no loss.
+
+You can reference to the source code if you know programming or you can download the complied version.  Or you may download the password zipped or ISO version if your company block executable download.
+
+Hope no more ransomware incident!  Please share this blog with friend if you found it is useful.
 
 
 # This tool
@@ -47,7 +51,7 @@ EncryptDelTestv3.exe
 |![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen15.png)|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen13.png)|
 
 
-# Test results
+# Use illustration
 
 ###### EncryptDelTestv3.exe (local drive)
 
@@ -86,7 +90,12 @@ EncryptDelTestv3.exe
 
 #
 
+eddie chu
 ransomware test tool
 ransomware simulation
 ransomware simulator
 ransomware assessment
+anti-ransomware
+antivirus test
+anti-virus test
+endpoint test
