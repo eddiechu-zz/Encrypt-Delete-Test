@@ -49,7 +49,7 @@ EncryptDelTestv3.exe
 
 # Test results
 
-###### Windows (local drive)
+###### EncryptDelTestv3.exe (local drive)
 
 | CANNOT detect | CAN detect |
 |---------------|---------------|
@@ -59,7 +59,7 @@ EncryptDelTestv3.exe
 
 #
 
-###### Windows (remote attack)
+###### EncryptDelTestv3.exe (remote attack)
 
 | CAN detect |
 |---------------|
@@ -69,7 +69,7 @@ EncryptDelTestv3.exe
 
 #
 
-###### Java (local drive)
+###### EncryptDelTestv3.jar (local drive)
 
 | CANNOT detect | CAN detect |
 |---------------|---------------|
