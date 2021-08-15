@@ -87,3 +87,5 @@ EncryptDelTestv3.exe
 
 ransomware test tool
 ransomware simulation
+ransomware simulator
+ransomware assessment
