@@ -29,7 +29,7 @@ I have helped people to test this for several years.  Luckly, I found few brands
 
 You can refer to the source code if you know programming or you can download the complied files, password zipped or ISO version.
 
-Hope no more ransomware incident!  Please share this blog with friend if you found it is useful.
+Hope there is no more ransomware incident!  Please share this blog with friends if you found it is useful.
 
 
 # This tool
