@@ -70,7 +70,7 @@ EncryptDelTestv3.exe
 | CAN detect |
 |---------------|
 |![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen15.gif)|
-|The tool tried to encrypt network drive, server terminated the encryption from remote, few files were encrypted, part of them were being restored|
+|The tool tries to encrypt files in network drive, the server terminates the encryption from remote, few files are encrypted, part of them are being restored|
 
 
 #
@@ -80,7 +80,7 @@ EncryptDelTestv3.exe
 | CANNOT detect | CAN detect |
 |---------------|---------------|
 |![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen12.gif)|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen14.gif)|
-| The tool encrypted all file, red page shown up and all files were encrypted | The tool was being terminated, no red page shown up, few files were encrypted, part of them were being restored |
+| The tool encrypts all file, a red page is shown and all files are encrypted | The tool is terminated, no red page is shown, few files are encrypted, part of them are being restored |
 
 
 
