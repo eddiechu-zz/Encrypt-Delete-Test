@@ -27,7 +27,7 @@ It is safe enough to run it on your working PC and server, let you see the fact 
 
 I have helped people to test this for several years.  Luckly, I found few brands can detect it, and one of them can stop ransomware encryption initiated from remote PC via file share and RDP as well.  I did see a real Ransomware incident, that endpoint really could stop encryption, no loss.
 
-You can refer to the source code if you know programming or you can download the complied version.  If your company block executable download, you may download the password zipped or ISO version.
+You can refer to the source code if you know programming or you can download the complied files, password zipped or ISO version.
 
 Hope no more ransomware incident!  Please share this blog with friend if you found it is useful.
 
