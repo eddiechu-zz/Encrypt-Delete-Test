@@ -25,7 +25,7 @@ That's why I developed this tool.  It is not to replicate found malware, not ven
 
 It is safe enough to run it on your working PC and server, let you see the fact in your environment.
 
-I have helped people to test this for several years.  Luckly, I found few brands can detect it, and one of them can stop ransomware encryption initiated from remote PC via file share and RDP as well.  I did see a real Ransomware incident, that endpoint really could stop encryption, no loss.
+I have helped people to test this after WannaCry outbreak.  Luckly, I found few brands can detect it, and one of them can stop ransomware encryption initiated from remote PC via file share and RDP as well.  I did see a real Ransomware incident, that endpoint really could stop encryption, no loss.
 
 You can refer to the source code if you know programming or you can download the complied files, password zipped or ISO version.
 
@@ -36,7 +36,9 @@ Hope there is no more ransomware incident!  Please share this blog with friends 
 
 This tool encrypts and deletes the files under running folder and subfolder, you may create a temporary folder like C:\Encrypt-Delete-Test\, save this tool to there, then run it.  Be safe.
 
-It tests if your endpoint can detect when encryption is happening, but not to test if your endpoint can prevent it from start.
+It tests if your endpoint can detect when encryption is happening, but NOT to test if your endpoint can prevent it from start.
+
+It is great if you can share your test result with me for my record.
 
 EncryptDelTestv3.jar
 - runs on Windows and Mac OS
