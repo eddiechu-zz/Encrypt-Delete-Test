@@ -60,7 +60,7 @@ EncryptDelTestv3.exe
 | CANNOT detect | CAN detect |
 |---------------|---------------|
 |![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen10.gif)|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen13.gif)|
-| The tool encrypted all file, red page shown up and all files are encrypted | The tool was being terminated, no red page shown up, few files were encrypted, part of them were being restored |
+| The tool encrypts all files, a red page is shown and all files are encrypted | The tool is terminated, no red page is shown, few files are encrypted, part of them are being restored |
 
 
 #
