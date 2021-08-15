@@ -54,7 +54,7 @@ EncryptDelTestv3.exe
 | CANNOT detect | CAN detect |
 |---------------|---------------|
 |![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen10.gif)|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen13.gif)|
-| The tool encrypted all file, red page shown up and all files are encrypted | The tool is being terminated, no red page shown up, few files are encrypted, part of them are being restored |
+| The tool encrypted all file, red page shown up and all files are encrypted | The tool was being terminated, no red page shown up, few files were encrypted, part of them were being restored |
 
 
 #
@@ -64,7 +64,7 @@ EncryptDelTestv3.exe
 | CAN detect |
 |---------------|
 |![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen15.gif)|
-|The tool tried to encrypt network drive, server terminated the encryption from remote, few files are encrypted, part of them are being restored|
+|The tool tried to encrypt network drive, server terminated the encryption from remote, few files were encrypted, part of them were being restored|
 
 
 #
@@ -74,7 +74,7 @@ EncryptDelTestv3.exe
 | CANNOT detect | CAN detect |
 |---------------|---------------|
 |![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen12.gif)|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen14.gif)|
-| The tool encrypted all file, red page shown up and all files are encrypted | The tool is being terminated, no red page shown up, few files are encrypted, part of them are being restored |
+| The tool encrypted all file, red page shown up and all files were encrypted | The tool was being terminated, no red page shown up, few files were encrypted, part of them were being restored |
 
 
 
