@@ -36,7 +36,7 @@ Hope there is no more ransomware incident!  Please share this blog with friends 
 
 This tool encrypts and deletes the files under running folder and subfolder, you may create a temporary folder like C:\Encrypt-Delete-Test\, save this tool to there, then run it.  Be safe.
 
-It is not to test if your endpoint can stop it to start, but to test if your endpoint can detect the encryption is processing.
+It is not to test if your endpoint can stop it to open, but to test if your endpoint can detect the encryption is processing.
 
 EncryptDelTestv3.jar
 - runs on Windows and Mac OS
