@@ -35,7 +35,7 @@ The principle is not to test if your endpoint can stop the tool to start, but to
 EncryptDelTestv3.jar
 - runs on Windows and Mac OS
 - requires at least Java 7, http://www.java.com
-(usually java.exe is a trusted software, it is more difficult for endpoint to safegard)
+(usually java.exe or javaw.exe is a trusted software, it is more difficult for endpoint to detect)
 
 
 EncryptDelTestv3.exe
