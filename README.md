@@ -28,7 +28,7 @@ I have helped people to test this for several years.  Luckly, I found few brands
 
 # This tool
 
-This tool encrypts the files under running folder and subfolder, you may create a temporary folder like C:\Encrypt-Delete-Test\, save this tool to there, then run it.  Be safe.
+This tool encrypts and deletes the files under running folder and subfolder, you may create a temporary folder like C:\Encrypt-Delete-Test\, save this tool to there, then run it.  Be safe.
 
 The principle is not to test if your endpoint can stop the tool to start, but to test if the endpoint can detect and stop the tool when the encryption is processing.
 
