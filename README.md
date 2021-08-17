@@ -112,3 +112,10 @@ incident response
 hacker
 antimalware
 anti-malware
+encryption
+encrypt-del-test
+encrypt-delete-test
+tool
+test tool
+defense
+testing
