@@ -50,9 +50,14 @@ EncryptDelTestv3.exe
 - requires at least .NET Framework 4.0
 - runs on Windows
 
-| EncryptDelTestv3.jar | EncryptDelTestv3.exe |
-|---------------|---------------|
-|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen15.png)|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen13.png)|
+
+EncryptDelTestv3.ps1
+- requires PowerShell
+- runs on Windows
+
+| EncryptDelTestv3.jar | EncryptDelTestv3.exe | EncryptDelTestv3.ps1 | 
+|---------------|---------------|---------------|
+|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen15.png)|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen13.png)|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen30.gif)|
 
 
 # How it works
