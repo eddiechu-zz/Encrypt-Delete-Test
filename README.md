@@ -51,11 +51,11 @@ EncryptDelTestv3.exe
 - runs on Windows
 
 
-EncryptDelTestv3.ps1
+EncryptDelTest.ps1
 - requires PowerShell
 - runs on Windows
 
-| EncryptDelTestv3.jar | EncryptDelTestv3.exe | EncryptDelTestv3.ps1 | 
+| EncryptDelTestv3.jar | EncryptDelTestv3.exe | EncryptDelTest.ps1 | 
 |---------------|---------------|---------------|
 |![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen15.png)|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen13.png)|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen20.gif)|
 
