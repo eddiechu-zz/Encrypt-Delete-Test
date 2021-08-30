@@ -47,13 +47,13 @@ EncryptDelTestv3.jar
 
 
 EncryptDelTestv3.exe
-- requires at least .NET Framework 4.0
 - runs on Windows
+- requires at least .NET Framework 4.0
 
 
 EncryptDelTest.ps1
-- requires PowerShell
 - runs on Windows
+- requires PowerShell
 
 | EncryptDelTestv3.jar | EncryptDelTestv3.exe | EncryptDelTest.ps1 | 
 |---------------|---------------|---------------|
