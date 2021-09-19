@@ -21,7 +21,7 @@ How many companies in the world can make sure this?  Why can't it stop encryptio
 
 # Which brand can detect encryption operation?
 
-That's why I developed this tool.  It is not to replicate found malware, not vendor test tool, no bias, no need to install, just do encrypt and delete, simulate the core operation of ransomware.
+That's why I developed this tool.  It is not to replicate found malware, not vendor test tool, no bias, no need to install, just do encrypt - overwrite - rename, simulate the core operation of ransomware.
 
 It is safe enough to run it on your working PC and server, let you see the fact in your environment.
 
