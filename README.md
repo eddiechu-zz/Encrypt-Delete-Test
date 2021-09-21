@@ -120,6 +120,8 @@ anti-malware
 encryption
 encrypt-del-test
 encrypt-delete-test
+encryptdeltest
+encrypt overwrite rename
 tool
 test tool
 defense
