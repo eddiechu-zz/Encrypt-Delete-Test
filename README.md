@@ -126,3 +126,5 @@ tool
 test tool
 defense
 testing
+pentest
+penetration test
