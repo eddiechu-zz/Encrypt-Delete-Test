@@ -16,7 +16,7 @@ How many companies in the world can make sure this?  Why can't it stop encryptio
 
 **Stop encryption is the last defense, which cannot be neglected.**
 
-**Again, stop encryption is the last defense, which cannot be neglected.**
+**Advanced penetration detection is important, but stop encryption is the last defense, which cannot be neglected.**
 
 
 # Which brand can detect encryption operation?
