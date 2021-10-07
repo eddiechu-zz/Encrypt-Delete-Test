@@ -88,7 +88,7 @@ public class EncryptDelTestv4 extends JPanel implements ActionListener {
     textarea.append(NumtoString(CharNum)+"\n");
     CharNum = new int[]{104,116,116,112,115,58,47,47,103,105,116,104,117,98,46,99,111,109,47,101,100,100,105,101,99,104,117,47,69,110,99,114,121,112,116,45,68,101,108,101,116,101,45,84,101,115,116};
     textarea.append(NumtoString(CharNum)+"\n");
-    CharNum = new int[]{86,101,114,115,105,111,110,32,118,52,46,48,46,48,32,40,54,47,79,99,116,47,50,48,50,49,41};
+    CharNum = new int[]{86,101,114,115,105,111,110,32,118,52,46,48,46,49,32,40,55,47,79,99,116,47,50,48,50,49,41};
     textarea.append(NumtoString(CharNum)+"\n");
     textarea.append("\n");
     CharNum = new int[]{84,104,105,115,32,116,111,111,108,32,101,110,99,114,121,112,116,115,32,45,32,111,118,101,114,119,114,105,116,101,115,32,45,32,114,101,110,97,109,101,115,32,116,104,101,32,102,105,108,101,32,117,110,100,101,114,32,115,101,108,101,99,116,101,100,32,102,111,108,100,101,114,32,97,110,100,32,105,116,39,115,32,115,117,98,102,111,108,100,101,114,40,115,41,41};
@@ -109,86 +109,86 @@ public class EncryptDelTestv4 extends JPanel implements ActionListener {
     final JFileChooser jfc = new JFileChooser();
     jfc.setCurrentDirectory(new java.io.File("."));
     jfc.setDialogTitle("Choose a folder or network drive: ");
-    jfc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+    jfc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);   
     int returnValue = jfc.showOpenDialog(null);
-    file = jfc.getSelectedFile();
-
-    textarea.append("\n");
-    
-    File currentDir = new File("."); 
-    traverseDirectory(currentDir);
-
-    if (option.equals(strEncrypt)) {
-      try {
-        BufferedWriter out = new BufferedWriter(new FileWriter("popup.html"));
-        int CharNum[] = {60,104,116,109,108,62};
-        out.write(NumtoString(CharNum)+"\n");
-        CharNum = new int[]{60,104,101,97,100,62};
-        out.write(NumtoString(CharNum)+"\n");
-        CharNum = new int[]{60,116,105,116,108,101,62,69,110,99,114,121,112,116,68,101,108,84,101,115,116,118,52,60,47,116,105,116,108,101,62};
-        out.write(NumtoString(CharNum)+"\n");
-        CharNum = new int[]{60,98,111,100,121,32,98,103,99,111,108,111,114,61,114,101,100,62};
-        out.write(NumtoString(CharNum)+"\n");
-        CharNum = new int[]{60,102,111,110,116,32,115,105,122,101,61,43,49,48,32,99,111,108,111,114,61,119,104,105,116,101,62,60,98,62,91,69,110,99,114,121,112,116,68,101,108,84,101,115,116,118,52,32,40,74,97,118,97,41,93,60,47,98,62,60,47,102,111,110,116,62,60,98,114,62,60,98,114,62,60,98,114,62,60,98,114,62};
-        out.write(NumtoString(CharNum)+"\n");
-        CharNum = new int[]{60,102,111,110,116,32,115,105,122,101,61,43,49,48,32,99,111,108,111,114,61,119,104,105,116,101,62,84,104,97,110,107,115,32,102,111,114,32,121,111,117,114,32,116,101,115,116,33,60,47,102,111,110,116,62,60,98,114,62,60,98,114,62};
-        out.write(NumtoString(CharNum)+"\n");
-        CharNum = new int[]{60,102,111,110,116,32,115,105,122,101,61,43,49,48,32,99,111,108,111,114,61,119,104,105,116,101,62,89,111,117,114,32,97,110,116,105,45,118,105,114,117,115,32,115,111,102,116,119,97,114,101,32,60,117,62,67,65,78,78,79,84,60,47,117,62,32,100,101,116,101,99,116,32,116,104,105,115,32,116,101,115,116,60,47,102,111,110,116,62,60,98,114,62,60,98,114,62};
-        out.write(NumtoString(CharNum)+"\n");
-        out.write("<br>\n");
-        out.write("<br>\n");
-        CharNum = new int[]{60,98,114,62,69,110,99,114,121,112,116,105,111,110,32,75,101,121,58,32};
-        out.write(NumtoString(CharNum) + password + "\n");
-        CharNum = new int[]{60,98,114,62,69,110,99,114,121,112,116,101,100,32,70,105,108,101,58,32};
-        out.write(NumtoString(CharNum) + encryptedcount + "\n");
-        out.write("<br>" + sdf.format(today) + "\n");
-        out.write("<br>\n");
-        CharNum = new int[]{60,47,98,111,100,121,62};
-        out.write(NumtoString(CharNum)+"\n");
-        CharNum = new int[]{60,47,104,116,109,108,62};
-        out.write(NumtoString(CharNum)+"\n");
-        out.close();
-      }
-      catch (IOException e) {
-      }    
-
+    if (returnValue == JFileChooser.APPROVE_OPTION){
+      file = jfc.getSelectedFile();
       textarea.append("\n");
-      if (encryptedcount > 0){
-        java.awt.Desktop desktop = java.awt.Desktop.getDesktop();
-        if( desktop.isSupported( java.awt.Desktop.Action.BROWSE ) ) {
-          try {
-            java.net.URI uri = new java.net.URI("popup.html");
-            desktop.browse( uri );
-          }
-          catch ( Exception e ) {
-            System.err.println( e.getMessage() );
-          }
+      File currentDir = new File("."); 
+      traverseDirectory(currentDir);
+
+      if (option.equals(strEncrypt)) {
+        try {
+          BufferedWriter out = new BufferedWriter(new FileWriter("popup.html"));
+          int CharNum[] = {60,104,116,109,108,62};
+          out.write(NumtoString(CharNum)+"\n");
+          CharNum = new int[]{60,104,101,97,100,62};
+          out.write(NumtoString(CharNum)+"\n");
+          CharNum = new int[]{60,116,105,116,108,101,62,69,110,99,114,121,112,116,68,101,108,84,101,115,116,118,52,60,47,116,105,116,108,101,62};
+          out.write(NumtoString(CharNum)+"\n");
+          CharNum = new int[]{60,98,111,100,121,32,98,103,99,111,108,111,114,61,114,101,100,62};
+          out.write(NumtoString(CharNum)+"\n");
+          CharNum = new int[]{60,102,111,110,116,32,115,105,122,101,61,43,49,48,32,99,111,108,111,114,61,119,104,105,116,101,62,60,98,62,91,69,110,99,114,121,112,116,68,101,108,84,101,115,116,118,52,32,40,74,97,118,97,41,93,60,47,98,62,60,47,102,111,110,116,62,60,98,114,62,60,98,114,62,60,98,114,62,60,98,114,62};
+          out.write(NumtoString(CharNum)+"\n");
+          CharNum = new int[]{60,102,111,110,116,32,115,105,122,101,61,43,49,48,32,99,111,108,111,114,61,119,104,105,116,101,62,84,104,97,110,107,115,32,102,111,114,32,121,111,117,114,32,116,101,115,116,33,60,47,102,111,110,116,62,60,98,114,62,60,98,114,62};
+          out.write(NumtoString(CharNum)+"\n");
+          CharNum = new int[]{60,102,111,110,116,32,115,105,122,101,61,43,49,48,32,99,111,108,111,114,61,119,104,105,116,101,62,89,111,117,114,32,97,110,116,105,45,118,105,114,117,115,32,115,111,102,116,119,97,114,101,32,60,117,62,67,65,78,78,79,84,60,47,117,62,32,100,101,116,101,99,116,32,116,104,105,115,32,116,101,115,116,60,47,102,111,110,116,62,60,98,114,62,60,98,114,62};
+          out.write(NumtoString(CharNum)+"\n");
+          out.write("<br>\n");
+          out.write("<br>\n");
+          CharNum = new int[]{60,98,114,62,69,110,99,114,121,112,116,105,111,110,32,75,101,121,58,32};
+          out.write(NumtoString(CharNum) + password + "\n");
+          CharNum = new int[]{60,98,114,62,69,110,99,114,121,112,116,101,100,32,70,105,108,101,58,32};
+          out.write(NumtoString(CharNum) + encryptedcount + "\n");
+          out.write("<br>" + sdf.format(today) + "\n");
+          out.write("<br>\n");
+          CharNum = new int[]{60,47,98,111,100,121,62};
+          out.write(NumtoString(CharNum)+"\n");
+          CharNum = new int[]{60,47,104,116,109,108,62};
+          out.write(NumtoString(CharNum)+"\n");
+          out.close();
         }
-        int CharNum[] = {69,110,99,114,121,112,116,105,111,110,32,75,101,121,58,32};
-        textarea.append(NumtoString(CharNum) + password + "\n");
-        CharNum = new int[]{69,110,99,114,121,112,116,101,100,32,70,105,108,101,58,32};
-        textarea.append(NumtoString(CharNum) + encryptedcount + "\n");
-        textarea.setForeground(Color.RED);
-        CharNum = new int[]{79,112,101,114,97,116,105,111,110,32,99,111,109,112,108,101,116,101,100,33};
+        catch (IOException e) {
+        }    
+
         textarea.append("\n");
-        textarea.append(NumtoString(CharNum) + "\n");
-      } else {
-        int CharNum[] = {78,111,32,102,105,108,101,32,105,115,32,102,111,117,110,100,32,111,114,32,101,110,99,114,121,112,116,101,100};
-        textarea.append(NumtoString(CharNum) + "\n");   
-      }
-      textarea.setCaretPosition(textarea.getDocument().getLength());
-      JFrame f; 
-      f=new JFrame(); 
-      if (encryptedcount > 0){
+        if (encryptedcount > 0){
+          java.awt.Desktop desktop = java.awt.Desktop.getDesktop();
+          if( desktop.isSupported( java.awt.Desktop.Action.BROWSE ) ) {
+            try {
+              java.net.URI uri = new java.net.URI("popup.html");
+              desktop.browse( uri );
+            }
+            catch ( Exception e ) {
+              System.err.println( e.getMessage() );
+            }
+          }
+          int CharNum[] = {69,110,99,114,121,112,116,105,111,110,32,75,101,121,58,32};
+          textarea.append(NumtoString(CharNum) + password + "\n");
+          CharNum = new int[]{69,110,99,114,121,112,116,101,100,32,70,105,108,101,58,32};
+          textarea.append(NumtoString(CharNum) + encryptedcount + "\n");
+          textarea.setForeground(Color.RED);
+          CharNum = new int[]{79,112,101,114,97,116,105,111,110,32,99,111,109,112,108,101,116,101,100,33};
+          textarea.append("\n");
+          textarea.append(NumtoString(CharNum) + "\n");
+        } else {
+          int CharNum[] = {78,111,32,102,105,108,101,32,105,115,32,102,111,117,110,100,32,111,114,32,101,110,99,114,121,112,116,101,100};
+          textarea.append(NumtoString(CharNum) + "\n");   
+        }
+        textarea.setCaretPosition(textarea.getDocument().getLength());
+        JFrame f; 
+        f=new JFrame(); 
+        if (encryptedcount > 0){
+          int CharNum[] = {79,112,101,114,97,116,105,111,110,32,99,111,109,112,108,101,116,101,100,33};
+          JOptionPane.showMessageDialog(f,NumtoString(CharNum),"[Encrypt Delete Test v4]",JOptionPane.ERROR_MESSAGE);
+        }
+      } else if (option.equals(strDecrypt)){
         int CharNum[] = {79,112,101,114,97,116,105,111,110,32,99,111,109,112,108,101,116,101,100,33};
+        textarea.append(NumtoString(CharNum) + "\n");
+        JFrame f; 
+        f=new JFrame(); 
         JOptionPane.showMessageDialog(f,NumtoString(CharNum),"[Encrypt Delete Test v4]",JOptionPane.ERROR_MESSAGE);
       }
-    } else if (option.equals(strDecrypt)){
-      int CharNum[] = {79,112,101,114,97,116,105,111,110,32,99,111,109,112,108,101,116,101,100,33};
-      textarea.append(NumtoString(CharNum) + "\n");
-      JFrame f; 
-      f=new JFrame(); 
-      JOptionPane.showMessageDialog(f,NumtoString(CharNum),"[Encrypt Delete Test v4]",JOptionPane.ERROR_MESSAGE);
     }
   }
   
@@ -332,22 +332,6 @@ public class EncryptDelTestv4 extends JPanel implements ActionListener {
       goProcess();
     } else {
       JOptionPane.showMessageDialog(this, "Please select option","[Encrypt Delete Test v4]", JOptionPane.ERROR_MESSAGE);
-    }
-  }
-  
-  public static String folderchooser() {
-    File file;
-    final JFileChooser jfc = new JFileChooser();
-    jfc.setCurrentDirectory(new java.io.File("."));
-    jfc.setDialogTitle("Choose a folder or network drive: ");
-    jfc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
-    int returnValue = jfc.showOpenDialog(null);
-    file = jfc.getSelectedFile();
-    try {
-      return file.getCanonicalPath();
-    }
-    catch(IOException e) {
-      return "";
     }
   }
  
