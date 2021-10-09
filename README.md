@@ -42,11 +42,11 @@ It is great if you can share your test result with me for my record.
 
 EncryptDelTestv4.jar
 - runs on Windows and Mac OS
-- requires at least Java 7, http://www.java.com
+- requires at least Java 8, http://www.java.com
 (usually java.exe or javaw.exe is a trusted software, it is more difficult for endpoint to detect)
 
 
-EncryptDelTestv3.exe
+EncryptDelTestv4.exe
 - runs on Windows
 - requires at least .NET Framework 4.0
 
@@ -55,7 +55,7 @@ EncryptDelTestv4.ps1
 - runs on Windows
 - requires PowerShell
 
-| EncryptDelTestv4.jar | EncryptDelTestv3.exe | EncryptDelTestv4.ps1 | 
+| EncryptDelTestv4.jar | EncryptDelTestv4.exe | EncryptDelTestv4.ps1 | 
 |---------------|---------------|---------------|
 |![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen15.png)|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen13.png)|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen20.gif)|
 
