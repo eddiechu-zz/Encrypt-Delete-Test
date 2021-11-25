@@ -62,21 +62,21 @@ EncryptDelTestv4.ps1
 
 # How it works
 
-###### EncryptDelTestv3.exe (local drive)
+###### EncryptDelTestv4.ps1 (local drive)
 
 | CANNOT detect | CAN detect |
 |---------------|---------------|
-|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen10.gif)|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen13.gif)|
+|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen43.gif)|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen55.gif)|
 | The tool encrypts all files, a red page is shown and all files are encrypted | The tool is terminated, no red page is shown, few files are encrypted, part of them are being restored |
 
 
 #
 
-###### EncryptDelTestv3.exe (remote attack)
+###### EncryptDelTestv4.ps1 (remote attack)
 
 | CAN detect |
 |---------------|
-|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen15.gif)|
+|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen54.gif)|
 |The tool tries to encrypt files in network drive, the server terminates the encryption from remote, few files are encrypted, part of them are being restored|
 
 
