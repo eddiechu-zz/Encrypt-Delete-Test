@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+<head>
+<style>
+body {
+  font-family: monospace;
+  font-size: x-large;
+}
+</style>
+</head>
+<script type='text/javascript'>
+  const letter = new Array("a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z");
+  const lettercaps = new Array("A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z");
+  const vowel = new Array("a","e","i","o","u");
+  const vowelcaps = new Array("A","E","I","O","U");
+  const consonantcaps = new Array("b","c","d","f","g","h","j","k","l","m","n","p","q","r","s","t","v","w","x","y","z");
+  const consonantcapsupper = new Array("B","C","D","F","G","H","J","K","L","M","N","P","Q","R","S","T","V","W","X","Y","Z");
+  const number = new Array("1","2","3","4","5","6","7","8","9","0");
+  const symbol = new Array("!","\"","#","$","%","&","'","(",")","*","+",",","-",".","/",":",";","<","=",">","?","@","[","\\","]","^","_","`","{","|","}","~");
+  const phrase = new Array("jan","jun","sun","sat","aai","aak","aam","aan","aang","aap","aat","aau","ah","ai","ak","am","an","ap","at","au","ba","baai","baak","baan","baang","baat","baau","bah","bai","bak","bam","ban","bang","bar","bat","be","bei","bek","beng","bik","bin","bing","bit","biu","bo","boh","bok","bong","booi","boon","boot","bor","bui","buk","bum","bun","bung","cha","chaai","chaak","chaam","chaan","chaang","chaap","chaat","chaau","chah","chai","chak","cham","chan","chang","chap","char","chat","chau","che","chek","cheng","cheu","cheuk","cheung","chi","chik","chim","chin","ching","chip","chit","chiu","cho","choh","choi","chok","chong","chor","chow","chu","chue","chuen","chuet","chui","chuk","chun","chung","chut","da","daai","daak","daam","daan","daap","daat","dab","dai","dak","dam","dan","dang","dat","dau","de","deh","dei","dek","deng","deu","deuk","di","dik","dim","din","ding","dip","dit","diu","do","doh","doi","dok","dong","dor","duek","duen","duet","dui","duk","dum","dun","dung","dup","dut","eh","fa","faai","faan","faat","fai","fan","fang","fat","fau","fei","feng","foh","fok","fong","foo","fooi","fook","foon","foot","fu","fui","fuk","fun","fung","fut","ga","gaai","gaak","gaam","gaan","gaang","gaap","gaat","gaau","gai","gam","gan","gang","gap","garp","gat","gau","ge","gei","geng","gep","geuk","geung","geur","gik","gim","gin","ging","gip","git","giu","go","goh","goi","gok","gon","gong","goo","gooi","goon","gor","got","gu","guen","guet","gui","guk","gung","gur","gwa","gwaa","gwaai","gwaak","gwaan","gwaang","gwaat","gwah","gwai","gwan","gwang","gwat","gwei","gwik","gwing","gwoh","gwok","gwong","gwor","ha","haai","haak","haam","haan","haang","haap","haau","hai","hak","ham","han","hang","hap","hat","hau","hei","hek","heng","heuh","heung","him","hin","hing","hip","hit","hiu","hm","ho","hoh","hoi","hok","hon","hong","hor","hot","huen","huet","hui","huk","hum","hun","hung","hur","ip","ja","jaai","jaak","jaam","jaan","jaang","jaap","jaat","jaau","jah","jai","jak","jam","jang","jap","jat","jau","jeh","jek","jeng","jeuk","jeung","ji","jik","jim","jin","jing","jip","jit","jiu","jo","joh","joi","jok","jong","jor","jue","juen","juet","jui","juk","jung","jut","ka","kaai","kaak","kaat","kaau","kai","kam","kan","kang","kap","kat","kau","ke","kei","kek","keuk","keung","kim","kin","king","kip","kit","kiu","ko","koi","kok","kong","koo","kooi","koon","koot","ku","kuen","kuet","kui","kuk","kung","kut","kwa","kwaa","kwaai","kwaan","kwaang","kwaat","kwah","kwai","kwan","kwang","kwat","kwik","kwing","kwok","kwong","kwun","kwung","la","laa","laai","laak","laam","laan","laang","laap","laat","laau","lai","lak","lam","lan","lang","lap","larn","lat","lau","le","lee","lei","lek","lem","leng","leuk","leung","li","lik","lim","lin","ling","lip","lit","liu","lo","loh","loi","lok","long","lor","luen","luet","lui","luk","lun","lung","lut","m","ma","maa","maai","maak","maan","maang","maau","mah","mai","mak","man","mang","mat","mau","meh","mei","mek","meng","mi","mik","min","ming","mit","miu","mo","moh","mok","mong","mooi","moon","moot","mor","mui","muk","mun","mung","mut","na","naai","naam","naan","naap","naat","naau","nai","nam","nan","nang","nap","narm","narn","nat","nau","ne","nei","neung","ng","nga","ngaa","ngaai","ngaak","ngaam","ngaan","ngaang","ngaap","ngaat","ngaau","ngai","ngak","ngam","ngan","ngang","ngap","ngat","ngau","ngit","ngo","ngoh","ngoi","ngok","ngon","ngong","ngor","nguk","ngung","ni","nik","nim","nin","ning","nip","niu","no","noh","noi","nok","nong","nor","nuen","nui","nuk","nung","nut","o","oh","oi","ok","on","ong","or","ork","pa","paai","paak","paan","paang","paau","pah","pai","pak","pan","pang","par","pat","pau","pei","pek","peng","pik","pin","ping","pit","piu","po","poh","pok","pong","pooi","poon","poot","por","pui","puk","pun","pung","put","sa","saai","saak","saam","saan","saang","saap","saat","saau","sai","sak","sam","san","sang","sap","sau","se","see","seh","sei","sek","seng","seuk","seung","sha","shau","shek","sheung","shi","shing","shui","shun","si","sik","sim","sin","sing","sip","sit","siu","so","soh","soi","sok","song","sor","sue","suen","suet","sui","suk","sung","sut","sze","ta","taai","taam","taan","taap","taat","tai","tam","tan","tang","tap","tat","tau","tei","tek","teng","teuk","tik","tim","tin","ting","tip","tit","tiu","to","toh","toi","tok","tong","tor","tou","tsang","tsim","tsit","tso","tsuen","tsui","tuen","tuet","tui","tuk","tum","tun","tung","tur","uk","up","wa","waai","waak","waan","waang","waat","wah","wai","wak","wan","wang","wat","wik","wing","wo","woh","wok","wong","woo","wooi","woon","woot","wor","wu","wui","wun","wut","ya","yaai","yaak","yai","yak","yam","yan","yang","yap","yark","yat","yau","ye","yee","yeh","yeng","yeuk","yeung","yeut","yi","yik","yim","yin","ying","yip","yit","yiu","yoh","yue","yuen","yuet","yui","yuk","yun","yung");
+  var nlettercaps=0;
+  var nnumber=0;
+  var nsymbol=0;
+  var total=0;
+  function tocount(){
+    nsymbol = 0;
+    nlettercaps = 0;
+    nnumber = 0;
+    for(i = 0; i <= document.getElementsByName('password')[0].value.length-1; i++){
+      if (symbol.indexOf(document.getElementsByName('password')[0].value.substring(i,i+1)) > -1) {
+        nsymbol += 1;
+      }
+      if (lettercaps.indexOf(document.getElementsByName('password')[0].value.substring(i,i+1)) > -1) {
+        nlettercaps += 1;
+      }
+      if (number.indexOf(document.getElementsByName('password')[0].value.substring(i,i+1)) > -1) {
+        nnumber += 1;
+      }
+    }
+    total = document.getElementsByName('password')[0].value.length
+  }  
+  function process(cell,value){
+    if (cell.style.backgroundColor == '') {
+      cell.style.backgroundColor = 'white';
+      if (value != ' ') {
+        document.getElementsByName('password')[0].value= document.getElementsByName('password')[0].value + value;
+        tocount();
+        document.getElementsByName('spec')[0].value= 'Length['+ document.getElementsByName('password')[0].value.length +'] Symbol['+ nsymbol +'] Caps['+ nlettercaps +'] Number['+ nnumber +']';
+      }
+    }
+  }
+  function timestamp() {
+    let now = new Date();
+    let date = [ now.getMonth() + 1, now.getDate(), now.getFullYear() ].map(d=>d.toString().length === 1 ? "0"+d : d);
+    let time = [ now.getHours(), now.getMinutes(), now.getSeconds() ].map(d=>d.toString().length === 1 ? "0"+d : d);
+    return time.join(":") + " " + date.join(".");
+  }
+  function clickvalue(value) {
+    return value;
+  }
+  function tdvalue(value) {
+    if (value.length > 1){
+      return '&nbsp;';
+    } else if (value == ' ') {
+      return '&nbsp;';
+    } else {
+      return value;
+    }
+  }
+</script>
+</head>
+<title>PassBox</title>
+<body>
+<script type='text/javascript'>
+  document.write("<b>PassBox</b> - Compose your complex password");
+</script>
+  <br>
+  <br><input type="textbox" size=40 name="password" readonly>
+  <a href='javascript:window.location.reload();'>Reset</></a>  
+  <br><input type="textbox" style="border:none;outline:none" size=40 name="spec">
+  <br>
+  <br>Mixed - Letter, Caps, Symbol, Number, Phrase
+  <script type='text/javascript'>
+    var table = new Array();
+    var table = symbol.concat(vowel,vowel,vowel,vowelcaps,letter,letter,letter,letter,letter,letter,lettercaps,number);
+    var space = Math.ceil(Math.sqrt(table.length))*Math.ceil(Math.sqrt(table.length))-table.length;
+    var spacetable = new Array(space);
+
+    round = phrase.length*phrase.length
+    for(i = 1; i <= round; i++){
+      swapfrom=Math.floor((Math.random()*phrase.length)+1);
+      if (swapfrom >= phrase.length){
+        swapfrom=swapfrom - phrase.length;
+      }
+      swapto=Math.floor((Math.random()*phrase.length)+1);
+      if (swapto >= phrase.length){
+        swapto=swapto - phrase.length;
+      }
+      temp=phrase[swapfrom];
+      phrase[swapfrom]=phrase[swapto];
+      phrase[swapto]=temp;
+    }
+
+    for(i = 0; i <= space-1; i++){
+      thephrase = ""; 
+      for(j = 0; j <= phrase[i].length-1; j++){
+        if (parseInt(Math.random()*10)%4 == 0 ){
+          thephrase += phrase[i].substring(j,j+1).toUpperCase();
+        } else {
+          thephrase += phrase[i].substring(j,j+1);
+        }
+      }
+      //document.write("<br>" + phrase[i] + "<br>" + thephrase);
+      spacetable[i] = thephrase;
+    }
+
+    table = table.concat(spacetable);   
+    round = table.length*table.length
+    for(i = 1; i <= round; i++){
+      swapfrom=Math.floor((Math.random()*table.length)+1);
+      if (swapfrom >= table.length){
+        swapfrom=swapfrom - table.length;
+      }
+      swapto=Math.floor((Math.random()*table.length)+1);
+      if (swapto >= table.length){
+        swapto=swapto - table.length;
+      }
+      temp=table[swapfrom];
+      table[swapfrom]=table[swapto];
+      table[swapto]=temp;
+    }
+
+    document.write("<table border=1 style=\"table-layout: fixed;\">");
+    for(i = 1; i <= table.length; i++){
+      if (i % Math.sqrt(table.length) == 1){
+        document.write("<tr>");
+        document.write("  <td align=center bgcolor=\"black\" onclick=\"process(this,'" + clickvalue(table[i-1]) + "');\">" + tdvalue(table[i-1]) + "</td>");
+      } else if (i % Math.sqrt(table.length) == 0) {
+        document.write("  <td align=center bgcolor=\"black\" onclick=\"process(this,'" + clickvalue(table[i-1]) + "');\">" + tdvalue(table[i-1]) + "</td>");
+        document.write("</tr>");
+      } else {
+        document.write("  <td align=center bgcolor=\"black\" onclick=\"process(this,'" + clickvalue(table[i-1]) + "');\">" + tdvalue(table[i-1]) + "</td>");
+      }       
+    }
+    document.write("</table>");
+  </script>
+  <table border=0>
+  <tr>
+  <td valign=top>
+    Symbol
+    <script type='text/javascript'>
+      var table = [];
+      var table = symbol;
+      var space = Math.ceil(Math.sqrt(table.length))*Math.ceil(Math.sqrt(table.length))-table.length;
+      var spacetable = new Array(space);
+      for(i = 0; i <= space-1; i++){
+        spacetable[i] = " ";
+      }
+      table = table.concat(spacetable);   
+      round = table.length*table.length
+      for(i = 1; i <= round; i++){
+        swapfrom=Math.floor((Math.random()*table.length)+1);
+        if (swapfrom >= table.length){
+          swapfrom=swapfrom - table.length;
+        }
+        swapto=Math.floor((Math.random()*table.length)+1);
+        if (swapto >= table.length){
+          swapto=swapto - table.length;
+        }
+        temp=table[swapfrom];
+        table[swapfrom]=table[swapto];
+        table[swapto]=temp;
+      }
+
+      document.write("<table border=1 style=\"table-layout: fixed;\">");
+      for(i = 1; i <= table.length; i++){
+        if (i % Math.sqrt(table.length) == 1){
+          document.write("<tr>");
+          document.write("  <td align=center bgcolor=\"black\" onclick=\"process(this,'" + clickvalue(table[i-1]) + "');\">" + tdvalue(table[i-1]) + "</td>");
+        } else if (i % Math.sqrt(table.length) == 0) {
+          document.write("  <td align=center bgcolor=\"black\" onclick=\"process(this,'" + clickvalue(table[i-1]) + "');\">" + tdvalue(table[i-1]) + "</td>");
+          document.write("</tr>");
+        } else {
+          document.write("  <td align=center bgcolor=\"black\" onclick=\"process(this,'" + clickvalue(table[i-1]) + "');\">" + tdvalue(table[i-1]) + "</td>");
+        }       
+      }
+      document.write("</table>");
+    </script>
+  </td>
+  <td valign=top>
+    Letter
+    <script type='text/javascript'>
+      var table = [];
+      var table = letter;
+      var space = Math.ceil(Math.sqrt(table.length))*Math.ceil(Math.sqrt(table.length))-table.length;
+      var spacetable = new Array(space);
+      for(i = 0; i <= space-1; i++){
+        spacetable[i] = " ";
+      }
+      table = table.concat(spacetable);   
+      round = table.length*table.length
+      for(i = 1; i <= round; i++){
+        swapfrom=Math.floor((Math.random()*table.length)+1);
+        if (swapfrom >= table.length){
+          swapfrom=swapfrom - table.length;
+        }
+        swapto=Math.floor((Math.random()*table.length)+1);
+        if (swapto >= table.length){
+          swapto=swapto - table.length;
+        }
+        temp=table[swapfrom];
+        table[swapfrom]=table[swapto];
+        table[swapto]=temp;
+      }
+
+      document.write("<table border=1 style=\"table-layout: fixed;\">");
+      for(i = 1; i <= table.length; i++){
+        if (i % Math.sqrt(table.length) == 1){
+          document.write("<tr>");
+          document.write("  <td align=center bgcolor=\"black\" onclick=\"process(this,'" + clickvalue(table[i-1]) + "');\">" + tdvalue(table[i-1]) + "</td>");
+        } else if (i % Math.sqrt(table.length) == 0) {
+          document.write("  <td align=center bgcolor=\"black\" onclick=\"process(this,'" + clickvalue(table[i-1]) + "');\">" + tdvalue(table[i-1]) + "</td>");
+          document.write("</tr>");
+        } else {
+          document.write("  <td align=center bgcolor=\"black\" onclick=\"process(this,'" + clickvalue(table[i-1]) + "');\">" + tdvalue(table[i-1]) + "</td>");
+        }       
+      }
+      document.write("</table>");
+    </script>
+  </td>
+  <td valign=top>
+    Caps
+    <script type='text/javascript'>
+      var table = [];
+      var table = lettercaps;
+      var space = Math.ceil(Math.sqrt(table.length))*Math.ceil(Math.sqrt(table.length))-table.length;
+      var spacetable = new Array(space);
+      for(i = 0; i <= space-1; i++){
+        spacetable[i] = " ";
+      }
+      table = table.concat(spacetable);   
+      round = table.length*table.length
+      for(i = 1; i <= round; i++){
+        swapfrom=Math.floor((Math.random()*table.length)+1);
+        if (swapfrom >= table.length){
+          swapfrom=swapfrom - table.length;
+        }
+        swapto=Math.floor((Math.random()*table.length)+1);
+        if (swapto >= table.length){
+          swapto=swapto - table.length;
+        }
+        temp=table[swapfrom];
+        table[swapfrom]=table[swapto];
+        table[swapto]=temp;
+      }
+
+      document.write("<table border=1 style=\"table-layout: fixed;\">");
+      for(i = 1; i <= table.length; i++){
+        if (i % Math.sqrt(table.length) == 1){
+          document.write("<tr>");
+          document.write("  <td align=center bgcolor=\"black\" onclick=\"process(this,'" + clickvalue(table[i-1]) + "');\">" + tdvalue(table[i-1]) + "</td>");
+        } else if (i % Math.sqrt(table.length) == 0) {
+          document.write("  <td align=center bgcolor=\"black\" onclick=\"process(this,'" + clickvalue(table[i-1]) + "');\">" + tdvalue(table[i-1]) + "</td>");
+          document.write("</tr>");
+        } else {
+          document.write("  <td align=center bgcolor=\"black\" onclick=\"process(this,'" + clickvalue(table[i-1]) + "');\">" + tdvalue(table[i-1]) + "</td>");
+        }       
+      }
+      document.write("</table>");
+    </script>
+  </td>
+  <td valign=top>
+    Vowel
+    <script type='text/javascript'>
+      var table = [];
+      var table = vowel.concat(vowelcaps);
+      var space = Math.ceil(Math.sqrt(table.length))*Math.ceil(Math.sqrt(table.length))-table.length;
+      var spacetable = new Array(space);
+      for(i = 0; i <= space-1; i++){
+        spacetable[i] = " ";
+      }
+      table = table.concat(spacetable);   
+      round = table.length*table.length
+      for(i = 1; i <= round; i++){
+        swapfrom=Math.floor((Math.random()*table.length)+1);
+        if (swapfrom >= table.length){
+          swapfrom=swapfrom - table.length;
+        }
+        swapto=Math.floor((Math.random()*table.length)+1);
+        if (swapto >= table.length){
+          swapto=swapto - table.length;
+        }
+        temp=table[swapfrom];
+        table[swapfrom]=table[swapto];
+        table[swapto]=temp;
+      }
+
+      document.write("<table border=1 style=\"table-layout: fixed;\">");
+      for(i = 1; i <= table.length; i++){
+        if (i % Math.sqrt(table.length) == 1){
+          document.write("<tr>");
+          document.write("  <td align=center bgcolor=\"black\" onclick=\"process(this,'" + clickvalue(table[i-1]) + "');\">" + tdvalue(table[i-1]) + "</td>");
+        } else if (i % Math.sqrt(table.length) == 0) {
+          document.write("  <td align=center bgcolor=\"black\" onclick=\"process(this,'" + clickvalue(table[i-1]) + "');\">" + tdvalue(table[i-1]) + "</td>");
+          document.write("</tr>");
+        } else {
+          document.write("  <td align=center bgcolor=\"black\" onclick=\"process(this,'" + clickvalue(table[i-1]) + "');\">" + tdvalue(table[i-1]) + "</td>");
+        }       
+      }
+      document.write("</table>");
+    </script>
+  </td>
+  <td valign=top>
+    Number
+    <script type='text/javascript'>
+      var table = [];
+      var table = number;
+      var space = Math.ceil(Math.sqrt(table.length))*Math.ceil(Math.sqrt(table.length))-table.length;
+      var spacetable = new Array(space);
+      for(i = 0; i <= space-1; i++){
+        spacetable[i] = " ";
+      }
+      table = table.concat(spacetable);   
+      round = table.length*table.length
+      for(i = 1; i <= round; i++){
+        swapfrom=Math.floor((Math.random()*table.length)+1);
+        if (swapfrom >= table.length){
+          swapfrom=swapfrom - table.length;
+        }
+        swapto=Math.floor((Math.random()*table.length)+1);
+        if (swapto >= table.length){
+          swapto=swapto - table.length;
+        }
+        temp=table[swapfrom];
+        table[swapfrom]=table[swapto];
+        table[swapto]=temp;
+      }
+
+      document.write("<table border=1 style=\"table-layout: fixed;\">");
+      for(i = 1; i <= table.length; i++){
+        if (i % Math.sqrt(table.length) == 1){
+          document.write("<tr>");
+          document.write("  <td align=center bgcolor=\"black\" onclick=\"process(this,'" + clickvalue(table[i-1]) + "');\">" + tdvalue(table[i-1]) + "</td>");
+        } else if (i % Math.sqrt(table.length) == 0) {
+          document.write("  <td align=center bgcolor=\"black\" onclick=\"process(this,'" + clickvalue(table[i-1]) + "');\">" + tdvalue(table[i-1]) + "</td>");
+          document.write("</tr>");
+        } else {
+          document.write("  <td align=center bgcolor=\"black\" onclick=\"process(this,'" + clickvalue(table[i-1]) + "');\">" + tdvalue(table[i-1]) + "</td>");
+        }       
+      }
+      document.write("</table>");
+    </script>
+  </td>
+  </tr>
+  </table>
+  <script type='text/javascript'>
+    function count (string) {  
+      var count = {};
+      string.split('').forEach(function(s) {
+         count[s] ? count[s]++ : count[s] = 1;
+      });
+      return count;
+    }  
+
+  </script>
+</body>
+</html>
