@@ -67,7 +67,7 @@ EncryptDelTestv4.ps1
 | CANNOT detect | CAN detect |
 |---------------|---------------|
 |![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen43.gif)|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen55.gif)|
-| The tool encrypts all files, a red page is shown and all files are encrypted | The tool is terminated, no red page is shown, few files are encrypted, part of them are being restored |
+| The tool encrypts all files, a red page is shown and all files are encrypted | The encryption operatoin is blocked, no red page is shown, few files are encrypted, but they are being restored |
 
 
 #
@@ -77,7 +77,7 @@ EncryptDelTestv4.ps1
 | CAN detect |
 |---------------|
 |![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen56.gif)|
-|The tool tries to encrypt files in network drive, the server terminates the encryption from remote, few files are encrypted, part of them are being restored|
+|The tool tries to encrypt files in network drive (N:\), the server the encryption operaton from remote, few files are encrypted, but they are being restored|
 
 
 
