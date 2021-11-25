@@ -76,19 +76,8 @@ EncryptDelTestv4.ps1
 
 | CAN detect |
 |---------------|
-|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen54.gif)|
+|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen56.gif)|
 |The tool tries to encrypt files in network drive, the server terminates the encryption from remote, few files are encrypted, part of them are being restored|
-
-
-#
-
-###### EncryptDelTestv3.jar (local drive)
-
-| CANNOT detect | CAN detect |
-|---------------|---------------|
-|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen12.gif)|![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/screen14.gif)|
-| The tool encrypts all file, a red page is shown and all files are encrypted | The tool is terminated, no red page is shown, few files are encrypted, part of them are being restored |
-
 
 
 
